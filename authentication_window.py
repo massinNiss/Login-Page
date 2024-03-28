@@ -6,7 +6,7 @@ from PIL import ImageTk, Image
 
 def resizer(e):
     global bg1, resized_bg, new_bg
-    bg1 = Image.open("dancing.jpg")
+    bg1 = Image.open("dancing-background.png")
 
     #RESIZE THE IMAGE
     resized_bg = bg1.resize((e.width, e.height), Image.ANTIALIAS)
